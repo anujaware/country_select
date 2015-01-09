@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     country_select (2.1.0)
-      countries (~> 0.9, >= 0.9.3)
 
 GEM
   remote: https://rubygems.org/
@@ -276,6 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   actionpack (~> 3)
+  countries (~> 0.9, >= 0.9.3)
   country_select!
   pry (~> 0)
   psych
